@@ -11,11 +11,11 @@ https://realpython.com/installing-python/
 ## Notes
 1.There are some python files, folder and requirements.txt.
 
-1) Folder:
+a) Folder:
 
 vector: store the database
 
-2) Python files:
+b) Python files:
 
 prepare.ipynb: preparation of the database.
 
@@ -23,7 +23,7 @@ train.py: model storage.
 
 main.py: front interface and main function.
 
-3) requirements.txt file: list all Python libraries.
+c) requirements.txt file: list all Python libraries.
 
 2.The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
 
@@ -35,9 +35,11 @@ a) Due to the large size of the model, you can download it using this link:https
 
 Also, if you download this model, you can edit the path in train.py. My model path is "F:/test/llama-2-7b-chat.ggmlv3.q4_0.bin", you should use your path instead.
 
+<img src="1698165072554.png" width="500px" height="140px">
 
 b) Edit the path of the vector folder in main.py, you should use your own path.
 
+<img src="1698165502554.png" width="350px" height="30px">
 
 4.Use the command in the terminal
 
