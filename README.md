@@ -1,7 +1,7 @@
 # dental-implants
 This Python code implements a chatbot that answers questions related to dental implants. The chatbot is based on LLama2 language model, which is a powerful and versatile natural language processing model.
 
-Before running the code, you need to ensure that Python has been installed. My python version is Python 3.8.16.
+Before running the code, you need to ensure that Python has been installed. My python version is python 3.8.16.
 
 The link for downloading Python
 https://www.python.org/downloads/
