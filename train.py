@@ -11,9 +11,6 @@ from langchain.document_loaders import Docx2txtLoader
 from langchain.llms import CTransformers
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain.llms import GPT4All
-from huggingface_hub import hf_hub_download
-
 
 def lma2():
 
