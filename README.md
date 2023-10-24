@@ -27,7 +27,9 @@ c) requirements.txt file: list all Python libraries.
 
 2.The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 3.There are some steps you should edit by yourself.
 
@@ -43,6 +45,8 @@ b) Edit the path of the vector folder in main.py, you should use your own path.
 
 4.Use the command in the terminal
 
-```streamlit run main.py```
+```
+streamlit run main.py
+```
 
 After that, you can now view your streamlit app in your browser.
