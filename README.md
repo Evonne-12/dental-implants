@@ -29,7 +29,7 @@ c) requirements.txt file: list all Python libraries.
 
 2.Install Python libraries and dependencies.
 
-The requirements.txt file list all Python libraries that your notebooks depend on, and they will be installed using:
+The requirements.txt file list all Python libraries that your notebooks depend on, and they will be installed using the command in the terminal:
 
 ```
 pip install -r requirements.txt
