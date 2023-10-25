@@ -16,7 +16,7 @@ def lma2():
 
 
    llm = CTransformers(
-                    model="F:/test/llama-2-7b-chat.ggmlv3.q4_0.bin",
+                    model="llama-2-7b-chat.ggmlv3.q4_0.bin",
                     model_type='llama', # Model type Llama
                     config={'max_new_tokens': 256,
                             'context_length':4028,
