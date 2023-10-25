@@ -37,7 +37,7 @@ Due to the large size of the model, you can download it using this link:https://
 
 After you download this model, you can put it into the main folder.
 
-4.Use the command in the terminal
+4.Use the command in the terminal:
 
 ```
 streamlit run main.py
