@@ -31,17 +31,11 @@ c) requirements.txt file: list all Python libraries.
 pip install -r requirements.txt
 ```
 
-3.There are some steps you should edit by yourself.
+3.Download the model.
 
-a) Due to the large size of the model, you can download it using this link:https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin
+Due to the large size of the model, you can download it using this link:https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin
 
-Also, if you download this model, you can edit the path in train.py. My model path is "F:/test/llama-2-7b-chat.ggmlv3.q4_0.bin", you should use your path instead.
-
-<img src="1698165072554.png" width="500px" height="140px">
-
-b) Edit the path of the vector folder in main.py, you should use your own path.
-
-<img src="1698165502554.png" width="350px" height="30px">
+After you download this model, you can put it into the main folder.
 
 4.Use the command in the terminal
 
