@@ -32,7 +32,7 @@ def add_user_message_to_session(prompt):
         st.session_state["messages"].append({"role": "user", "content": prompt})
 display_existing_messages()
 embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-db = FAISS.load_local("F:/vector", embeddings)
+db = FAISS.load_local("vector", embeddings)
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 llm=lma2()
 #llm1=g4all()
