@@ -100,7 +100,7 @@ if question:
               message_placeholder.markdown(f"{formatted_response}")
               #message_placeholder.markdown(response_text)
             else:
-                formatted_response = llm(question1, max_tokens=4028)  # 调整 max_tokens 参数根据需要
+                formatted_response = llm(question1, max_tokens=4028)  
                 message_placeholder.markdown(formatted_response)
             st.session_state["messages"].append(
             {"role": "assistant", "content": formatted_response})
